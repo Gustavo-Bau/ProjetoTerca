@@ -1,5 +1,4 @@
 const nodemailer = require('nodemailer');
-const fetch = require('node-fetch'); // Importar node-fetch para fazer requisições HTTP
 
 exports.handler = async (event) => {
   if (event.httpMethod !== 'POST') {
